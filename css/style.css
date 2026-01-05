@@ -88,7 +88,6 @@ a {
 
 
 /* Index */
-
 .banner {
     height: 100dvh;
     width: 100%;
@@ -112,6 +111,11 @@ a {
 .banner a {
     border: none;
     background: var(--main-bg);
+}
+
+
+.best-sellers h2 {
+    margin-bottom: 1rem;
 }
 
 /* Products */
@@ -174,7 +178,13 @@ a {
 .grid {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    gap: 1rem;
+    gap: 1.5rem;
+}
+
+/* Product card */
+
+.product-card img {
+    margin-bottom: 0.25rem;
 }
 
 /* ------------------------ */
