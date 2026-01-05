@@ -177,6 +177,33 @@ ul {
     padding: 0 2rem;
 }
 
+/* Reviews */
+
+.reviews h2 {
+    margin-bottom: 1rem;
+}
+.reviews h3 {
+    margin-bottom: 2rem;
+}
+.reviews p {
+    font-style: italic;
+}
+
+.reviews .review-card {
+    background: var(--secondary-bg);
+    padding: 1rem 1rem 4rem;
+}
+
+.reviews .grid {
+    margin-bottom: 2rem;
+}
+
+.reviews .btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
 
 
 /* ------------------Products----------------- */
@@ -212,6 +239,7 @@ ul {
     cursor: pointer;
     border: none; 
     transition: opacity 0.2s ease;
+    font-family: inherit;
 }
 
 .btn:hover {
