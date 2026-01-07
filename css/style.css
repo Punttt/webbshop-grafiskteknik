@@ -338,6 +338,9 @@ ul {
 }
 
 /* --------- Contact / About / Policy ------------ */
+.text-page {
+    margin-top: 2rem;
+}
 .text-page h1 {
     margin-bottom: 2rem;
 }
@@ -450,4 +453,13 @@ ul {
 
 /* Media queries */
 
+@media (max-width: 880px){
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .news .news-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+}
 /* ------------------------ */
