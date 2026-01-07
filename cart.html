@@ -48,17 +48,47 @@
         <section class="shopping-cart">
             <div class="container">
                 <h1 class="sub-hdg">Varukorg</h1>
-                <div class="flex-headings">
+                <div class="flex-headings"> <!-- Cart - header / rubriker-->
                     <h2 class="text-md">Produkter</h2>
                     <h2 class="text-md">Antal</h2>
                     <h2 class="text-md">Total</h2>
                 </div>
-                <div class="flex-payment">
+                <div class="cart-items"> <!-- Cart - main produkter-->
+                    <div class="product-box">
+                        <img src="assets/products/product-example.jpg" alt="example">
+                        <div class="wrapper">
+                            <h2 class="text-md">Produktnamn</h2>
+                            <p class="text-sm">Svart, ull, vinterjacka</p>
+                        </div>
+                    </div>
+                    <div class="amount-box">
+                        <select name="product-amount" id="product-amount">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <button id="delete-items"><i class="fa-solid fa-xmark"></i></button>
+                    </div>
+                    <div class="price-box">
+                        <p class="text-md">
+                            $100
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex-payment"> <!-- Cart - footer betalningsdel-->
+                    <p class="empty"></p>
+                    <p class="empty"></p>
                     <p class="text-md">$999</p>
+                </div>
+                <div class="button-wrapper">
                     <button class="btn btn-secondary">
                         Betala nu
                     </button>
                 </div>
+                
             </div>
         </section>
     </main>
