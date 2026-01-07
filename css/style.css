@@ -71,6 +71,7 @@ ul {
 .site-header .header-logo {
     width: 160px;
     height: auto;
+    padding: 0.5rem 0;
 }
 
 .site-header .main-nav ul{
@@ -97,7 +98,7 @@ ul {
     display: none;
     border: none;
     background: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     cursor: pointer;
     color: var(--primary-btn);
 }
@@ -492,6 +493,12 @@ ul {
     .news .news-box {
     grid-template-columns: 1fr 1fr;
     }
+    .banner .container {
+        flex-direction: column;
+    }
+    .banner .container h1{
+        text-align: center;
+    }
 }
 
 @media (max-width: 660px){
@@ -499,17 +506,9 @@ ul {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 0.8rem 0;
     }
     .site-header .nav-actions .main-nav{
         display: none;
-    }
-
-    .banner .container {
-        flex-direction: column;
-    }
-    .banner .container h1{
-        text-align: center;
     }
 
     .news .news-box {
