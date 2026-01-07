@@ -94,6 +94,8 @@ ul {
     background-color: var(--secondary-bg);
 }
 
+/* Mobile menu - settings */
+
 .site-header .nav-actions .hamburger {
     display: none;
     border: none;
@@ -101,6 +103,55 @@ ul {
     font-size: 1.2rem;
     cursor: pointer;
     color: var(--primary-btn);
+}
+
+.mobile-menu .meny-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--primary-btn);
+    color: var(--primary-btn);
+}
+.mobile-menu .meny-wrap button {
+    border: none;
+    background: none;
+    color: var(--primary-btn);
+}
+.mobile-menu .meny-wrap i{
+    font-size: 1.5rem;
+}
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 85%;
+    height: 100dvh;
+    background-color: var(--main-bg);
+    padding: 1rem 2rem;
+    box-shadow: -20px 0 20px rgba(0,0,0,0.5);
+    transition: right 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    z-index: 1001;
+}
+.mobile-menu.open {
+    right: 0;
+}
+
+.mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: var(--secondary-text);
+}
+
+.mobile-menu ul li a{
+    color: var(--secondary-text);
+    font-size: 1.2rem;
+    padding: 0.5rem 0.5rem 0.5rem 0;
 }
 
 /* Footer */
