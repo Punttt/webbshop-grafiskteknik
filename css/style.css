@@ -94,7 +94,8 @@ ul {
 
 /* Footer */
 .site-footer {
-    background: var(--secondary-bg);
+    background: var(--primary-btn);
+    color: var(--main-bg);
 }
 
 .site-footer .footer-logo{
@@ -112,13 +113,13 @@ ul {
 }
 
 .site-footer a {
-    color: var(--primary-text);
+    color: var(--main-bg);
     font-size: 0.8rem;
     line-height: 1.5;
 }
 
 .site-footer a:hover {
-    color: var(--secondary-text);
+    color: var(--secondary-bg);
     text-decoration: underline;
 }
 
