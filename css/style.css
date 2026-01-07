@@ -82,6 +82,7 @@ ul {
     height: 100%;
     display: block;
     padding: 0.75rem 1rem;
+    font-size: 0.9rem;
 }
 
 .site-header a {
@@ -90,6 +91,15 @@ ul {
 .site-header .main-nav a:hover {
     opacity: 0.8;
     background-color: var(--secondary-bg);
+}
+
+.site-header .nav-actions .hamburger {
+    display: none;
+    border: none;
+    background: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: var(--primary-btn);
 }
 
 /* Footer */
@@ -338,6 +348,7 @@ ul {
 /* --------- text-page / About / Policy ------------ */
 .text-page {
     margin-top: 2rem;
+    background: var(--secondary-bg);
 }
 .text-page h1 {
     margin-bottom: 2rem;
@@ -479,8 +490,38 @@ ul {
         grid-template-columns: 1fr 1fr;
     }
     .news .news-box {
-    display: grid;
     grid-template-columns: 1fr 1fr;
     }
 }
+
+@media (max-width: 660px){
+    .site-header .nav-actions .hamburger{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.8rem 0;
+    }
+    .site-header .nav-actions .main-nav{
+        display: none;
+    }
+
+    .banner .container {
+        flex-direction: column;
+    }
+    .banner .container h1{
+        text-align: center;
+    }
+
+    .news .news-box {
+    grid-template-columns: 1fr;
+    }
+    .news .news-text {
+        padding: 1rem 0;
+    }
+    .reviews .grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
 /* ------------------------ */
