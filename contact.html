@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babba & dodo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html">
+                <img class="header-logo" src="assets/icons/logotype.svg" alt="Babba & dodo logotype">
+            </a>
+
+            <div class="nav-actions">
+                <nav class="main-nav">
+                <ul>
+                    <li>
+                        <a href="index.html">Startsida</a>
+                    </li>
+                    <li>
+                        <a href="products.html">Produkter</a>
+                    </li>
+                    <li>
+                        <a href="about.html">Om oss</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Kontakt</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <a href="cart.html" aria-label="Varukorg">
+                <i class="fa-solid fa-cart-shopping" ></i>
+            </a>
+            </div>
+            
+        </div>
+    </header>
+    <main>
+        <section class="text-page">
+            <div class="container-txt">
+                <h1 class="hdg">Kontakta oss</h1>
+                <p class="text-md">
+                    Vi finns här för dig! Vår kundtjänst har öppet måndag-fredag kl. 09:00-17:00.
+                
+                    Skicka gärna ditt meddelande via formuläret - vi återkommer alltid inom 24 timmar.
+                </p>
+
+                <form action="#" class="contact-form">
+                    <div class="form-row">
+                        <label for="fullName">Namn</label>
+                        <input type="text" id="fullName" name="fullname" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">E-postadress</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="form-row">
+                        <label for="subject">Ämne</label>
+                        <select name="subject" id="subject">
+                            <option value="" disabled selected>Välj ett ämne</option>
+                            <option value="subject-order">Order & köp</option>
+                            <option value="subject-delivery">Leverans & frakt</option>
+                            <option value="subject-product">Produktfrågor</option>
+                            <option value="subject-payment">Betalning</option>
+                            <option value="subject-other">Övrigt</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <label for="message">Meddelande</label>
+                        <textarea type="text" name="message" id="message" rows="6" required></textarea>
+                    </div>
+
+                    <div class="btn-group">
+                        <button class="btn btn-primary btn-full">Skicka meddelande</button>
+                        <button type="reset" class="btn btn-secondary btn-full">Rensa formulär</button>
+                    </div>
+                    
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 class="text-md">Snabblänkar</h3>
+                    <ul>
+                        <li><a href="products.html">Byxor</a></li>
+                        <li><a href="products.html">Tröjor</a></li>
+                        <li><a href="products.html">Tillbehör</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3 class="text-md">info</h3>
+                    <ul>
+                        <li><a href="about.html">Om oss</a></li>
+                        <li><a href="contact.html">Kontakt</a></li>
+                        <li><a href="policy.html">Fraktpolicy</a></li>
+                        <li><a href="policy.html">Integritetspolicy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <img class="footer-logo" src="assets/icons/logotype.svg" alt="Babba & dodo logotype">
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    
+</body>
+</html>

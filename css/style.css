@@ -211,9 +211,6 @@ ul {
     justify-content: center;
 }
 
-
-
-
 /* ------------------Products----------------- */
 
 .first-box{
@@ -337,7 +334,7 @@ ul {
     padding: 1rem 4rem;
 }
 
-/* --------- Contact / About / Policy ------------ */
+/* --------- text-page / About / Policy ------------ */
 .text-page {
     margin-top: 2rem;
 }
@@ -365,11 +362,34 @@ ul {
     margin-bottom: 2rem;
 }
 
+/* --------- text-page / contact ------------ */
+.text-page .contact-form .form-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-page .contact-form .form-row label{
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+.text-page .contact-form .form-row input, select{
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    font-family: inherit;
+}
+.text-page .contact-form .form-row textarea{
+    margin-bottom: 3rem;
+    padding: 0.75rem;
+    font-family: inherit;
+}
+
+.text-page .contact-form .btn-group {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
 /* ------------------------ */
-
-
-
-
 
 /* ==================== utility classes ================= */
 
