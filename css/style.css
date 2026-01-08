@@ -572,6 +572,10 @@ ul {
         grid-template-columns: 6fr 2fr 1fr;
     }
 
+    .product-page .product-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
 
 @media (max-width: 660px){
@@ -599,6 +603,9 @@ ul {
         height: auto;
     }
 
+    .product-page .product-grid{
+        grid-template-columns: 1fr;
+    }
 }
 
 /* ------------------------ */
