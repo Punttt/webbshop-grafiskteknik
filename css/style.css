@@ -218,6 +218,10 @@ ul {
     margin-bottom: 1rem;
 }
 
+.best-sellers .grid a {
+    color: var(--primary-text);
+}
+
 /* News */
 .news h2 {
     margin-bottom: 1rem;
@@ -269,6 +273,7 @@ ul {
     margin-bottom: 2rem;
 }
 
+
 .reviews .btn-wrapper {
     display: flex;
     justify-content: center;
@@ -284,6 +289,10 @@ ul {
 }
 .category h2 {
     margin-bottom: 1rem;
+}
+
+.category .grid a {
+    color: var(--primary-text);
 }
 /* ----------------Product - page-----------*/
 .product-page .product-grid {
