@@ -40,6 +40,9 @@ ul {
     list-style: none;
 }
 
+.drop-down {
+    -webkit-appearance: none;
+}
 /* ------------------------ */
 
 /* Sections / page settings*/
