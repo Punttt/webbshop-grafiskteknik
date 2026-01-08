@@ -279,7 +279,9 @@ ul {
 .first-box{
     margin-top: 4rem;
 }
-
+.category h1{
+    margin-bottom: 2rem;
+}
 .category h2 {
     margin-bottom: 1rem;
 }
@@ -585,6 +587,7 @@ ul {
 
     .shopping-cart .cart-items .product-box img{
         max-width: 85px;
+        height: auto;
     }
 
 }
