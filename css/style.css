@@ -297,7 +297,7 @@ ul {
 /* ----------------Product - page-----------*/
 .product-page .product-grid {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
     margin: 2rem 0;
 }
@@ -333,22 +333,7 @@ ul {
     color: var(--main-bg);
 }
 
-/* kanske ta bort */
-.product-page .product-info .form-row {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    margin-bottom: 1rem;
-}
-.product-page .product-info select {
-    padding: 0.25rem;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-    font-size: 1rem;
-    cursor: pointer;
-}
 
-/*  Ta bort hit*/
 
 .product-page .product-info .btn-group {
     margin-bottom: 2rem;
@@ -601,7 +586,7 @@ ul {
 
 }
 
-@media (max-width: 660px){
+@media (max-width: 727px){
     .site-header .nav-actions .hamburger{
         display: flex;
         align-items: center;
