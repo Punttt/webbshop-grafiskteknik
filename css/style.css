@@ -40,9 +40,6 @@ ul {
     list-style: none;
 }
 
-.drop-down {
-    -webkit-appearance: none;
-}
 /* ------------------------ */
 
 /* Sections / page settings*/
@@ -319,7 +316,24 @@ ul {
 .product-page .product-info h1 {margin-bottom: 0.5rem;}
 .product-page .product-info .price {margin-bottom: 2rem;}
 
+/* TESTA HÄR */
 
+.product-page .radio-selector {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+.product-page .radio-selector input{
+    display: none;
+}
+
+.product-page .radio-selector input:checked + span {
+    background: var(--primary-btn);
+    color: var(--main-bg);
+}
+
+/* kanske ta bort */
 .product-page .product-info .form-row {
     display: flex;
     gap: 1rem;
@@ -333,6 +347,8 @@ ul {
     font-size: 1rem;
     cursor: pointer;
 }
+
+/*  Ta bort hit*/
 
 .product-page .product-info .btn-group {
     margin-bottom: 2rem;
@@ -579,6 +595,10 @@ ul {
         grid-template-columns: 1fr 1fr;
     }
 
+    .product-page .product-images .thumbnails-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 
 @media (max-width: 660px){
@@ -608,6 +628,9 @@ ul {
 
     .product-page .product-grid{
         grid-template-columns: 1fr;
+    }
+    .product-page .product-images .thumbnails-grid {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
