@@ -311,7 +311,7 @@ ul {
 }
 .product-page .product-images .thumbnails-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
 }
 
@@ -582,9 +582,7 @@ ul {
         grid-template-columns: 1fr 1fr;
     }
 
-    .product-page .product-images .thumbnails-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+    
 
 }
 
@@ -618,9 +616,6 @@ ul {
 
     .product-page .product-grid{
         grid-template-columns: 1fr;
-    }
-    .product-page .product-images .thumbnails-grid {
-        grid-template-columns: repeat(4, 1fr);
     }
 }
 
