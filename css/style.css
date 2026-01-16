@@ -191,7 +191,7 @@ ul {
 .banner {
     height: 100dvh;
     width: 100%;
-    background-image: url(/assets/backgrounds/index-header-bg.jpg);
+    background-image: url(/assets/backgrounds/hero-desktop.webp), url(/assets/backgrounds/hero-desktop.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -587,6 +587,9 @@ ul {
 }
 
 @media (max-width: 727px){
+    .banner {
+        background-image: url(/assets/backgrounds/hero-mobile.webp), url(/assets/backgrounds/hero-mobile.jpg);
+    }
     .site-header .nav-actions .hamburger{
         display: flex;
         align-items: center;
