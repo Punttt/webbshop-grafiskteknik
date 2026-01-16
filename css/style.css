@@ -223,6 +223,9 @@ ul {
 }
 
 /* News */
+.news {
+    background: var(--secondary-bg);
+}
 .news h2 {
     margin-bottom: 1rem;
 }
@@ -245,7 +248,6 @@ ul {
 }
 
 /* Video */
-
 .video video {
     width: 100%;
     height: auto;
